@@ -13,7 +13,17 @@ int main()
   cout<<"Please enter another whole number:\n";
   cin>> B;
 
-  cout<<"Of those two numbers, the biggest is: ";
+  int biggest; 
+
+  if (A >= B) 
+  { 
+    biggest = A; 
+  } 
+else  
+{
+  biggest = B;
+}
+cout<<"Of those two numbers, the biggest is: " << biggest;
   cout<<endl<<"Thank you for playing.\n";
 
   return 0;
